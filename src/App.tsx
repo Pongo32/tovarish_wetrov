@@ -339,10 +339,20 @@ export default function App() {
             <Anchor className="w-5 h-5 text-accent-gold" />
             <span className="font-serif text-lg font-bold uppercase">Товарищ Ветроф</span>
           </div>
-          <div className="flex gap-6 text-nautical-blue/40">
-            <span className="text-xs uppercase tracking-widest">VKontakte</span>
-            <span className="text-xs uppercase tracking-widest">WhatsApp</span>
-            <span className="text-xs uppercase tracking-widest">Telegram</span>
+          <div className="flex gap-6">
+            <a
+              href="https://vk.com/vetrof"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-nautical-blue/40 hover:text-accent-gold transition-colors"
+              aria-label="VKontakte"
+            >
+              <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.8 2H3.2C2.54 2 2 2.54 2 3.2v17.6c0 .66.54 1.2 1.2 1.2h17.6c.66 0 1.2-.54 1.2-1.2V3.2c0-.66-.54-1.2-1.2-1.2zm-3.6 12.2h-2.2c-.8 0-1.1-.9-2.6-2.5-1.2-1.3-1.7-1.5-2.1-1.5-.5 0-.6.3-.6 1v2c0 .8-.2 1.2-1.2 1.2-1.9 0-4-1.2-5-3.4C3.2 10.4 3 8.6 3 7.4c0-.7.3-1.1 1-1.1h2.2c.7 0 .9.3 1.1.9.8 2.3 2.4 4.3 3 4.3.4 0 .6-.3.6-1.3v-2c-.1-.8-.5-1.2-1.4-1.2-.5 0-.8 0-1.3.4-.5.4-.2 1.1.9 2.3 1.2 1.3 1.7 1.5 2.1 1.5s.6-.3.6-1v-2c0-.8.2-1.2 1.2-1.2 1.9 0 4 1.2 5 3.4.8 1.8 1 3.6 1 4.8 0 .7-.3 1.1-1 1.1z" />
+              </svg>
+            </a>
+            <span className="text-xs uppercase tracking-widest text-nautical-blue/40">WhatsApp</span>
+            <span className="text-xs uppercase tracking-widest text-nautical-blue/40">Telegram</span>
           </div>
           <p className="text-[10px] text-nautical-blue/30 uppercase tracking-widest">
             © 2026 Товарищ Ветроф. Пермь, Россия.
